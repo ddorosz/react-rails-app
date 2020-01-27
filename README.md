@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup Instructions
 
-Things you may want to cover:
+1. Run `bundle install`
 
-* Ruby version
+1. Run `yarn install`
 
-* System dependencies
+1. Install `foreman` globally. Important: DO NOT INSTALL THIS IN YOUR PROJECT DIRECTORY. `gem install foreman`
 
-* Configuration
+1. To start your app, run `foreman start -f Procfile.dev -p 5000` in your project directory. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Note: You can use whatever port you like. 
